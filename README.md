@@ -1,6 +1,6 @@
 # Setup Amazon MSK (kafka) as an event source for Lambda 
 
-## [Click here to watch the Lecture.](https://www.youtube.com)
+## [Click here to watch the Lecture.](https://youtu.be/RGGLBEDUuMc)
 
 This is a repository for code shown in the lectures. It contains code for Lambda function, EC2 IAM Policy and Lambda policy.
 
