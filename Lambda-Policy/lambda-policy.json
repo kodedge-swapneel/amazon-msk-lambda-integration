@@ -1,0 +1,21 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "kafka-cluster:Connect",
+        "kafka-cluster:DescribeGroup",
+        "kafka-cluster:AlterGroup",
+        "kafka-cluster:DescribeTopic",
+        "kafka-cluster:ReadData",
+        "kafka-cluster:DescribeClusterDynamicConfiguration"
+      ],
+      "Resource": [
+        "arn:aws:kafka:ap-east-1:123456789123:cluster/demo-msk-cluster/ab7c0f32-n123-4567-8r23-12a3c04z5k8p-7",
+        "arn:aws:kafka:ap-east-1:123456789123:topic/demo-msk-cluster/ab7c0f32-n123-4567-8r23-12a3c04z5k8p-7/*",
+        "arn:aws:kafka:ap-east-1:123456789123:group/demo-msk-cluster/ab7c0f32-n123-4567-8r23-12a3c04z5k8p-7/*"
+      ]
+    }
+  ]
+}
